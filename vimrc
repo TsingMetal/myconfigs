@@ -94,6 +94,6 @@ func! CompileRunGcc()
 	elseif &filetype == 'sh'
 		:!./%
 	elseif &filetype == 'python'
-		exec "!python3 %"
+		xec "!python3 %"
 	endif
 endfunc

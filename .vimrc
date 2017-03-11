@@ -1,5 +1,5 @@
 " Set colorscheme = desert
-colorscheme desert
+" colorscheme desert
 
 " to lock arrow keys
 noremap <Up> <Nop>
