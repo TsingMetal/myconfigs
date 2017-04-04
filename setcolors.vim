@@ -117,4 +117,3 @@ function! s:HourColor()
   redraw
   echo g:colors_name
 endfunction
-
