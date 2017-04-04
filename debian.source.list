@@ -1,0 +1,37 @@
+# 
+
+# deb cdrom:[Debian GNU/Linux 8.6.0 _Jessie_ - Official i386 DVD Binary-1 20160917-13:04]/ jessie contrib main
+
+# deb cdrom:[Debian GNU/Linux 8.6.0 _Jessie_ - Official i386 DVD Binary-1 20160917-13:04]/ jessie contrib main
+
+# Line commented out by installer because it failed to verify:
+#deb http://security.debian.org/ jessie/updates main contrib
+# Line commented out by installer because it failed to verify:
+#deb-src http://security.debian.org/ jessie/updates main contrib
+
+# jessie-updates, previously known as 'volatile'
+# A network mirror was not selected during install.  The following entries
+# are provided as examples, but you should amend them as appropriate
+# for your mirror of choice.
+#
+
+deb http://mirrors.aliyun.com/ubuntu/ trusty main restricted universe multiverse
+
+deb http://mirrors.aliyun.com/ubuntu/ trusty-security main restricted universe multiverse
+
+deb http://mirrors.aliyun.com/ubuntu/ trusty-updates main restricted universe multiverse
+
+deb http://mirrors.aliyun.com/ubuntu/ trusty-proposed main restricted universe multiverse
+
+deb http://mirrors.aliyun.com/ubuntu/ trusty-backports main restricted universe multiverse
+
+deb-src http://mirrors.aliyun.com/ubuntu/ trusty main restricted universe multiverse
+
+deb-src http://mirrors.aliyun.com/ubuntu/ trusty-security main restricted universe multiverse
+
+deb-src http://mirrors.aliyun.com/ubuntu/ trusty-updates main restricted universe multiverse
+
+deb-src http://mirrors.aliyun.com/ubuntu/ trusty-proposed main restricted universe multiverse
+
+deb-src http://mirrors.aliyun.com/ubuntu/ trusty-backports main restricted universe multiverse 
+
