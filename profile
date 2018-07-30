@@ -34,6 +34,9 @@ if [ -d /etc/profile.d ]; then
 fi
 
 # Environment variables: added by Tsing
-export LANG=en_GB.UTF-8
-export JAVA_HOME=/usr/lib/jvm/jdk-8-oracle-arm32-vfp-hflt
+JAVA_HOME=/usr/lib/jdk/jdk-10.0.1
+CLASSPATH=.:$JAVA_HOME/lib/tools.jar:$JAVA_HOME/lib/dt.jar
+PATH=$PATH:$JAVA_HOME/bin
+export JAVA_HOME CLASSPATH PATH
+
 export HISTSIZE=50
