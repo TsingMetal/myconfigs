@@ -57,3 +57,21 @@ export JAVA_HOME CLASSPATH PATH
 sudo apt-get install scim scim-pinyin
 sudo apt-get install xfonts-wqy
 sudo reboot
+
+
+# install pip
+curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+sudo python get-pip.py
+
+
+# INSTALL python from source
+# 1, install make g++
+sudo apt-get install make g++
+# 2, install indepencies for tkinter and sqlite3
+sudo apt-get install tk-dev tcl-dev sqlite3-dev
+sudo apt-get install libffi-dev libssl-dev
+# 3, for cmd completation
+sudo apt-get install libreadline-dev
+
+
+wget https://www.python.org/ftp/python/3.7.0/Python-3.7.0.tgz
