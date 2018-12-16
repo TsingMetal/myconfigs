@@ -73,9 +73,10 @@ ab prc private class
 
 " setting for java files
 if has("autocmd")
-	autocmd FileType python setlocal sts=4 ts=4 sw=4
+	autocmd FileType python,c setlocal sts=4 ts=4 sw=4
 endif
 
+set expandtab
 " Map F5 to compile and run c++ and java code;
 " Borrowed from internet; added at Mon  5 Sep 22:38:51 CST 2016
 map #5 :call CompileRunGcc()<CR>
@@ -94,6 +95,6 @@ func! CompileRunGcc()
 	elseif &filetype == 'sh'
 		:!./%
 	elseif &filetype == 'python'
-		xec "!python3 %"
+		exec "!python3 %"
 	endif
 endfunc
